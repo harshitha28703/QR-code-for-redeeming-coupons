@@ -5,10 +5,10 @@ app = Flask(__name__)
 
 # Database connection
 conn = psycopg2.connect(
-    dbname = "farewell_db_ng3i"
-    user = "farewell_db_ng3i_user"
-    password = "12zw2quhNJY8C72FWN4qLE0QQ1C1zytY"
-    host = "dpg-d06rct3uibrs73es2pbg-a"
+    dbname = "farewell_db_ng3i",
+    user = "farewell_db_ng3i_user",
+    password = "12zw2quhNJY8C72FWN4qLE0QQ1C1zytY",
+    host = "dpg-d06rct3uibrs73es2pbg-a",
     port = "5432"
 
 )
